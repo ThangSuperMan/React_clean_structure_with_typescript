@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
-import Layout from "./components/Layout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import routes from "./pages/routes";
 import "./App.css";
+// @ts-ignore
+import { Layout } from "#components";
 
 interface RouteProps {
   path: string;
